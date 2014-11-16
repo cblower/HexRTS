@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{396D11E5-71E1-C33B-270E-26E3D91F38DA}</ProjectGuid>
+	<ProjectGuid>{62D78806-1F22-B2B1-7B3D-982F89F2435E}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,13 +47,45 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Testing\Editor\HexagonInspector.cs" />
+     <None Include="Assets\Cody&apos;s_Shaders\Normal Transparent\Lambert\Lambert - Bumped.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\Normal Transparent\Lambert\Lambert - Simple.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\DoubleSided\BlinnPhong\BlinnPhong - Simple.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\DoubleSided\Lambert\Lambert - Simple.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\DoubleSided Transparent\Lambert\Lambert - Simple.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\DoubleSided Transparent\Lambert\Lambert - Bumped Emissive.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\DoubleSided Transparent\BlinnPhong\BlinnPhong - Bumped.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\Normal\BlinnPhong\BlinnPhong - Emissive.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\DoubleSided\Lambert\Lambert - Bumped Emissive.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\Normal\Lambert\Lambert - Emissive.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\DoubleSided\BlinnPhong\BlinnPhong - Bumped.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\Normal\BlinnPhong\BlinnPhong - Simple.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\DoubleSided Transparent\Lambert\Lambert - Bumped.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\DoubleSided\BlinnPhong\BlinnPhong - Emissive.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\DoubleSided\BlinnPhong\BlinnPhong - Bumped Emissive.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\Normal Transparent\BlinnPhong\BlinnPhong - Bumped.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\Normal Transparent\BlinnPhong\BlinnPhong - Emissive.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\Normal Transparent\Lambert\Lambert - Bumped Emissive.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\DoubleSided Transparent\BlinnPhong\BlinnPhong - Bumped Emissive.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\Normal Transparent\BlinnPhong\BlinnPhong - Bumped Emissive.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\DoubleSided\Lambert\Lambert - Emissive.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\DoubleSided Transparent\BlinnPhong\BlinnPhong - Simple.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\Normal Transparent\Lambert\Lambert - Emissive.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\Normal\Lambert\Lambert - Bumped Emissive.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\Normal\BlinnPhong\BlinnPhong - Bumped.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\DoubleSided Transparent\Lambert\Lambert - Emissive.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\DoubleSided\Lambert\Lambert - Bumped.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\DoubleSided Transparent\BlinnPhong\BlinnPhong - Emissive.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\Normal\Lambert\Lambert - Simple.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\Normal Transparent\BlinnPhong\BlinnPhong - Simple.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\Normal\Lambert\Lambert - Bumped.shader" />
+     <None Include="Assets\Cody&apos;s_Shaders\Normal\BlinnPhong\BlinnPhong - Bumped Emissive.shader" />
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
-      <Project>{768A4FD5-3A03-A65F-FAFE-0D1D95B109B8}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+      <Project>{73EE978E-3D44-35BD-6ED2-7F82B580ED81}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

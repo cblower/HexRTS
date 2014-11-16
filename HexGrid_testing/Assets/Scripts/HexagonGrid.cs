@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class HexagonGrid : MonoBehaviour {
 	public int size = 5;
@@ -21,6 +22,50 @@ public class HexagonGrid : MonoBehaviour {
 				else{
 					this.grid[x,z] = MakeTile(x, z, prefab2);
 				}
+			}
+		}
+		for(int i=0; i<grid.GetUpperBound(0)+1; i++){
+			for(int j=0; j<grid.GetUpperBound(1)+1; j++){
+				GetNeighbors(i, j);
+			}
+		}
+
+	}
+	private void GetNeighbors(int x, int z){
+		//UpperLeft
+		if(z-1 >= 0){
+			if(this.grid[x,z-1] != null){
+				this.grid[x,z].directions.Add(this.grid[x,z-1].gameObject);
+			}
+		}
+		//UpperRight
+		if(x+1 <= this.grid.GetUpperBound(0) && z-1 >= 0){
+			if(this.grid[x+1,z-1] != null){
+				this.grid[x,z].directions.Add(this.grid[x+1,z-1].gameObject);
+			}
+		}
+		//Right
+		if(x+1 <= this.grid.GetUpperBound(0)){
+			if(this.grid[x+1,z] != null){
+				this.grid[x,z].directions.Add(this.grid[x+1,z].gameObject);
+			}
+		}
+		//LowerRight
+		if(z+1 <= this.grid.GetUpperBound(1)){
+			if(this.grid[x,z+1] != null){
+				this.grid[x,z].directions.Add(this.grid[x,z+1].gameObject);
+			}
+		}
+		//LowerLeft
+		if(x-1 >= 0 && z+1 <= this.grid.GetUpperBound(1)){
+			if(this.grid[x-1,z+1] != null){
+				this.grid[x,z].directions.Add(this.grid[x-1,z+1].gameObject);
+			}
+		}
+		//Left
+		if(x-1 >= 0){
+			if(this.grid[x-1,z] != null){
+				this.grid[x,z].directions.Add(this.grid[x-1,z].gameObject);
 			}
 		}
 	}

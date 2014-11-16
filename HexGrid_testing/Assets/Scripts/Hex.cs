@@ -1,11 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Hex : MonoBehaviour {
 	public Vector2 tilePos;
 	public Vector3 objectPos;
 	public Material selected;
 	public bool isUsed;
+	
+	public List<GameObject> directions;
+	public float cost = 1;
 
 	private Material unselected;
 	private GameManager manager;
