@@ -50,6 +50,14 @@
      <Compile Include="Assets\Scripts\Hex.cs" />
      <Compile Include="Assets\Scripts\HexagonGrid.cs" />
      <Compile Include="Assets\Scripts\Int2.cs" />
+     <Compile Include="Assets\Scripts\Int3.cs" />
+     <Compile Include="Assets\Scripts\Pathing\GridObject.cs" />
+     <Compile Include="Assets\Scripts\Pathing\IHasNeighbours.cs" />
+     <Compile Include="Assets\Scripts\Pathing\Path.cs" />
+     <Compile Include="Assets\Scripts\Pathing\PathFinder.cs" />
+     <Compile Include="Assets\Scripts\Pathing\Point.cs" />
+     <Compile Include="Assets\Scripts\Pathing\PriorityQueue.cs" />
+     <Compile Include="Assets\Scripts\Pathing\Tile.cs" />
      <Compile Include="Assets\Scripts\Rotate.cs" />
      <Compile Include="Assets\Scripts\Selection.cs" />
      <Compile Include="Assets\Scripts\Testing\Hexagon.cs" />
